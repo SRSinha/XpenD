@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xpend"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.xpend.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Duration"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.DURATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Expenditure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.EXPENDITURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Mimir1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.MIMIR1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Mimir2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.MIMIR2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.IngredientHelper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.INGREDIENTHELPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Try"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.TRY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Sqlexpend"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.SQLEXPEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Sqlview"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xpend.Edit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.xpend.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

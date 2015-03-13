@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/sqlbg" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow android:id="@+id/noneedoftablerowkpropertiessowedeletedthem" >
+
+            <TextView
+                android:id="@+id/tvid"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".10"
+                android:text="ID" />
+            
+            <TextView
+                android:id="@+id/tvexpend"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:text="Expenditure" />
+
+            <TextView
+                android:id="@+id/tvonwhom"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:text="On-Whom" />
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:text="Date" />
+            <TextView
+                android:id="@+id/tvdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:text="Description" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvsqlinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Get info from database" />
+
+</LinearLayout>
+</ScrollView>
